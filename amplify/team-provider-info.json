@@ -1,0 +1,20 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-pocmariavalentinacab-dev-102126-authRole",
+      "UnauthRoleArn": "arn:aws:iam::789967944864:role/amplify-pocmariavalentinacab-dev-102126-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::789967944864:role/amplify-pocmariavalentinacab-dev-102126-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-pocmariavalentinacab-dev-102126-deployment",
+      "UnauthRoleName": "amplify-pocmariavalentinacab-dev-102126-unauthRole",
+      "StackName": "amplify-pocmariavalentinacab-dev-102126",
+      "StackId": "arn:aws:cloudformation:us-east-1:789967944864:stack/amplify-pocmariavalentinacab-dev-102126/01e53210-a0a1-11ed-be0e-0a5c7a83545f",
+      "AmplifyAppId": "d24jirv9ycjjga"
+    },
+    "categories": {
+      "api": {
+        "pocmariavalentinacab": {}
+      }
+    }
+  }
+}
