@@ -8,6 +8,7 @@ import MainLayout from "./MainLayout";
 import BookDetail from "../pages/BookDetail";
 import { Amplify } from "aws-amplify";
 import awsExports from "../aws-exports";
+import Weather from "../pages/Weather";
 Amplify.configure(awsExports);
 
 const Router = () => {
@@ -18,6 +19,7 @@ const Router = () => {
         <Routes>
           <Route path="/" element={<MainLayout />}>
             <Route index element={<UploadBookForm />} />
+            <Route path="/weather" element={<Weather/>}/>
             <Route path="/library" element={<Library/>}/>
             <Route path="/library/book-detail/:id" element={<BookDetail/>}/>
             <Route path="/library/book-detail/:id/edit-book" element={<EditBook/>}/>

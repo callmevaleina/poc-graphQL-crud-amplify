@@ -28,7 +28,7 @@ const NavLink = styled(Link)`
   text-decoration: none;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
-  padding: 0 1rem;
+  padding: 0.2rem 1rem;
   border: 1px solid white;
   height: 70%;
   border-radius: 3px;
@@ -51,6 +51,14 @@ const NavIcon = styled.img`
   filter: drop-shadow(0 0 2px #333);
 `;
 
+const NavButtons = styled.div`
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: center;
+gap: 10px;
+`
+
 const NavMenu = styled.div`
   width: 100%;
   display: flex;
@@ -58,4 +66,4 @@ const NavMenu = styled.div`
   justify-content: space-between;
 `;
 
-export { Nav, NavHome, NavLink, NavMenu, NavIcon };
+export { Nav, NavHome, NavLink, NavButtons, NavMenu, NavIcon };
