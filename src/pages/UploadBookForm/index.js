@@ -48,7 +48,8 @@ const UploadBookForm = () => {
 
   const addBook = async() => {
     try {
-      await API.graphql({ query: mutations.createBook, variables: {input: bookDetails}});
+      const book = await API.graphql({ query: mutations.createBook, variables: {input: bookDetails}});
+      console.log("Book Added*******", book);
     } catch (error) {
       console.log("Error on creating a book", error);
     }
@@ -113,7 +114,7 @@ const UploadBookForm = () => {
             onChange={(e)=> setFile(e.target.value)}
             />
           </LabelInputContainer>
-          <ButtonForm onClick={()=> addBook()}>Add Book</ButtonForm>
+          <ButtonForm onClick={addBook}>Add Book</ButtonForm>
         </Form>
       </FormContainer>
     </Container>

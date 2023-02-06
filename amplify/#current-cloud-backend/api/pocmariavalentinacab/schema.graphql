@@ -10,3 +10,5 @@ type Book @model {
   fileUrl: String!
   file: String!
 }
+
+

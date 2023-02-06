@@ -35,8 +35,8 @@
         "s3TemplateURL": "https://s3.amazonaws.com/amplify-pocmariavalentinacab-dev-102126-deployment/amplify-cfn-templates/api/cloudformation-template.json",
         "logicalId": "apipocmariavalentinacab"
       },
-      "lastPushTimeStamp": "2023-01-30T13:34:00.254Z",
-      "lastPushDirHash": "7ych0R7rg/DGiM9JZB9NyoHdzxw="
+      "lastPushTimeStamp": "2023-01-31T20:17:14.807Z",
+      "lastPushDirHash": "C6BOrTvrr/2/H/eTc53VAlxfqM4="
     }
   }
 }
